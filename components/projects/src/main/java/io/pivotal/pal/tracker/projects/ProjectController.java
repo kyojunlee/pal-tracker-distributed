@@ -48,7 +48,6 @@ public class ProjectController {
         return null;
     }
 
-
     private ProjectFields formToFields(ProjectForm form) {
         return projectFieldsBuilder()
             .accountId(form.accountId)
